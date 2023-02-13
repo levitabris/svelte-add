@@ -19,7 +19,7 @@ export const heuristics = [
 	{
 		description: "`civet` is installed",
 		async detector({ folderInfo }) {
-			return "civet" in folderInfo.allDependencies;
+			return "@danielx/civet" in folderInfo.allDependencies;
 		},
 	},
 	{
