@@ -9,7 +9,7 @@ import { fresh as vite } from "@svelte-add/create-vite/__init.js";
 
 const initializers = { svelteKit, vite };
 // Replace this with the specific adder(s) to test
-const addersToTest = ["tailwindcss"];
+const addersToTest = ["civet"];
 
 for (const [app, init] of Object.entries(initializers)) {
 	for (const adderToTest of addersToTest) {

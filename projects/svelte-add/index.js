@@ -14,7 +14,7 @@ export const exit = (text) => {
 };
 
 /**
- * @typedef {"coffeescript" | "javascript" | "typescript"} Script
+ * @typedef {"coffeescript" | "javascript" | "typescript" | "civet"} Script
  * @typedef {"css" | "postcss" | "scss"} StyleLanguage
  * @typedef {"bootstrap" | "bulma" | "tailwindcss"} StyleFramework
  * @typedef {"3d" | "graphql-server" | "mdsvex" | "routify"} Other
@@ -23,7 +23,7 @@ export const exit = (text) => {
  */
 
 /** @type {Script[]} */
-const scripts = ["javascript", "typescript", "coffeescript"];
+const scripts = ["javascript", "typescript", "coffeescript", "civet"];
 /** @type {StyleLanguage[]} */
 const styleLanguages = ["css", "postcss", "scss"];
 /** @type {Other[]} */

@@ -187,7 +187,7 @@ export const updateJson = async ({ path, json }) => {
 	});
 };
 
-/** @typedef {"coffee" | "ts" | undefined} ScriptLang */
+/** @typedef {"coffee" | "civet" | "ts" | undefined} ScriptLang */
 /** @typedef {"postcss" | "scss" | undefined} StyleLang */
 
 /**

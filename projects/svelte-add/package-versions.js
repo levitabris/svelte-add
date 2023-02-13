@@ -21,6 +21,8 @@ export const packageVersions = {
 	three: "^0.142.0",
 	"vite-imagetools": "^4.0.4",
 	"vite-plugin-coffee": "^2.2.1",
+    "@danielx/civet": "^0.5.70",
+    "vite-plugin-civet": "^0.2.5",
 };
 
 /** @typedef {typeof packageVersions | Record<string, string>} Dependencies */
